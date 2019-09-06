@@ -1,5 +1,7 @@
 deployments:
   registry-test:
+    subdomain_port_mapping:
+      - nginx:3000
     docker_registry:
       - server: r.cfcr.io 
         username: wisedrette
