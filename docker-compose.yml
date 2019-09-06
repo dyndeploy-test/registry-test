@@ -7,4 +7,4 @@ services:
   redmine-test:
     image: cloud.canister.io:5000/wisedrette/obscure-name
     ports:
-      - 3000:3000
+      - 3000:80
