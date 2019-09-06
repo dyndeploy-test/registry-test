@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  docker-test:
+    image: r.cfcr.io/wisedrette/wisedrette/dockertest:master
+    ports:
+      - 80:80
+  redmine-test:
+    image: cloud.canister.io:5000/wisedrette/obscure-name
+    ports:
+      - 3000:3000
