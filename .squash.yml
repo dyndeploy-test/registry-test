@@ -1,0 +1,9 @@
+deployments:
+  registry-test:
+    docker_registry:
+      - server: r.cfcr.io 
+        username: wisedrette
+        password: $REGISTRY_PASSWORD
+      - server: cloud.canister.io:5000
+        username: wisedrette
+        password: $REGISTRY_PASSWORD_CANISTER
